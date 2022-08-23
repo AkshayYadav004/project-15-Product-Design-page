@@ -5,7 +5,8 @@ Languages used :
  * CSS
  
  To look better I used transitions and hover effects. 
- By working on this project I applied theroritical knowledge of grid and flex box.  
+ By working on this project I applied theroritical knowledge of grid and flex box.
+ * Used media queries to make the page responsive.  
 
 ### Link to web page : [Deploy link](https://product-design-landing-webpage-15.netlify.app/)
 
@@ -18,3 +19,8 @@ Languages used :
 
 ![](./readme%20images/image-3.png)
 > ## When hover over the porject a box shadow appears and the image of project also zooms a little bit.
+
+## Images of the responsive web-page
+![](./readme%20images/R-image-1.png)
+![](./readme%20images/R-image-2.png)
+![](./readme%20images/R-image-3.png)
