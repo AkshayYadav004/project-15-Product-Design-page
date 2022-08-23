@@ -23,12 +23,28 @@ button:hover{
 header{
     margin: 5px;
 }
+
+/* Navbar Section */
 nav{
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width:800px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    nav > div:nth-child(2) > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
 }
 nav > div:nth-child(1) > img{
     width: 150px;
@@ -68,11 +84,28 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
     align-items: center;
     color: #fff;
 }
+@media screen and (max-width:1200px){
+    #header_intro{
+        margin: 20px auto ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 #header_intro > img {
-    width: 600px;
+    max-width: 600px;
 }
 #header_intro > div{
-    padding-right: 200px;
+    padding-right: 10em;
+}
+@media screen and (max-width:1200px){
+    #header_intro > div{
+        padding: 2em 3em;
+        /* background-color: aquamarine; */
+        text-align: center;
+    }
 }
 #header_intro > div >h2{
     color: #FB3242;
@@ -106,6 +139,14 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 25px;
+}
+
+@media screen and (max-width:1200px) {
+    #section_1 > div:first-child{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
 }
 
 /* css of each card */
@@ -153,15 +194,22 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
 /* ============  About Exeprience and projects =========== */
 
 #about_summary{
-    padding:  0px 100px;
+    padding:  0px 10%;
     padding-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     color: #fff;
 }
+
+@media screen and (max-width:1200px){
+    #about_summary{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 #about_summary  h1{
-    color: #C91B28;
+    color: #c91b27f0;
 }
 #about_summary  h2{
     color: #C91B28;
@@ -206,17 +254,26 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
 }
 /* <!-- About Me section ends --> */
 
-/* ========= Section 2 ========= */
+/* ========= Section 2 -> Featured section ========= */
 #section_2{
-    padding: 50px 100px;
+    padding: 3% 10%;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 900px){
+    #section_2{
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
 #section_2 h1{
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
 }
 #section_2 p{
@@ -231,11 +288,19 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
 
 /* ==== Project List ===== */
 #section_3{
-    padding: 10px 200px;
+    padding: 10em 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     color: #fff;
+}
+
+@media screen and (max-width:1100px) {
+    #section_3{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
 .project > div{
     background-color: #1E1E1E;
@@ -244,7 +309,7 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
     margin-bottom: 20px;
 }
 .project > div >  img{
-    width: 100%;
+    min-width: 100%;
     height: 250px;
     transition: transform 0.5s;
 }
@@ -272,6 +337,14 @@ nav > div:nth-child(2) > ul > li > span > i:hover{
     align-items: center;
     background-color:#1E1E1E;
     color: #fff;
+}
+@media screen and (max-width: 1200px) {
+    #section_4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
 }
 #section_4 button{
     font-size: 15px;
