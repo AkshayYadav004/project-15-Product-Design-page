@@ -1,0 +1,334 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color: #111111;
+}
+button{
+    background-color: #FB3242;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+button:hover{
+    box-shadow: 0 0 5px grey;
+    transform: scale(1.05);
+}
+/* ================== Header Section ============= */
+
+header{
+    margin: 5px;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > div:nth-child(1) > img{
+    width: 150px;
+}
+/* navbar list */
+nav > div:nth-child(2){
+    color: #fff;
+    margin-right: 100px;
+}
+nav > div:nth-child(2) > ul{
+    list-style: none;
+    display: flex;
+
+}
+nav > div:nth-child(2) > ul > li{
+    margin-right: 45px;
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+nav > div:nth-child(2) > ul > li:hover{
+    color:aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+nav > div:nth-child(2) > ul > li > span > i{
+    transition: transform 0.5s;
+}
+nav > div:nth-child(2) > ul > li > span > i:hover{
+    transform: translateY(2px);
+}
+
+/* Header Introduction Section */
+#header_intro{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+}
+#header_intro > img {
+    width: 600px;
+}
+#header_intro > div{
+    padding-right: 200px;
+}
+#header_intro > div >h2{
+    color: #FB3242;
+}
+#header_intro > div >h1{
+    margin-top: 10px;
+    font-size: 60px;
+}
+#header_intro > div > p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+#header_intro > div > button{
+    font-size: 15px;
+    padding: 15px 30px;
+}
+/* Header section ends */
+
+/* ==========  About Me  ========== */
+#section_1{
+    background : linear-gradient(90deg,  #181818 50%, #111111 50%);
+}
+
+/* About Skills of Autur */
+#section_1 > div:first-child{
+    padding: 100px 100px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+/* css of each card */
+#section_1 > div:first-child > div{
+    background-color: #1E1E1E;
+    padding: 70px 60px 50px 60px;
+    transition: transform 0.5s;
+}
+#section_1 > div:first-child > div:hover{
+    background-color:#C91B28;
+    color: #fff;
+    transform: scale(1.08);
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+/* Inside the card -> elements*/
+#section_1 > div:first-child > div > i{
+    font-size: 70px;
+    color: #FB3242;
+}
+#section_1 > div:first-child > div > h1 {
+    margin: 20px 0px;
+}
+#section_1 > div:first-child > div > p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.know_more_link{
+    color: #FB3242;
+    text-decoration: none;
+    font-size: 20px;
+}
+.know_more_link:hover{
+    color: #fff;
+}
+.know_more_link > span > i{
+    transition: transform 0.5s;
+}
+.know_more_link > span > i:hover{
+    transform: translateX(10px);
+}
+/* About Skills ends */
+
+/* ============  About Exeprience and projects =========== */
+
+#about_summary{
+    padding:  0px 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    color: #fff;
+}
+#about_summary  h1{
+    color: #C91B28;
+}
+#about_summary  h2{
+    color: #C91B28;
+}
+/* Left side section */
+#about_summary > div:first-child{
+    padding-top: 10%;
+    text-align: center;
+}
+#about_summary > div:first-child > h1{
+    color: #C91B28;
+    font-weight: bold;
+    font-size: 80px;
+}
+#about_summary > div:first-child > p{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* Right side section */
+#about_summary > div:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+/* 4 parts div selection  */
+#about_summary > div:nth-child(2) > div{
+    background-color: #1E1E1E;
+    padding: 30px;
+    text-align: center;
+    transition:  transform 0.5s;
+    box-shadow: 0 0 2px  grey;
+}
+
+#about_summary > div:nth-child(2) > div > h2{
+    font-size: 40px;
+
+}
+#about_summary > div:nth-child(2) > div > p{
+    color:#F4F4F4;
+}
+/* <!-- About Me section ends --> */
+
+/* ========= Section 2 ========= */
+#section_2{
+    padding: 50px 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section_2 h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#section_2 p{
+    color: #F4F4F4;
+}
+#section_2 button{
+    padding: 15px 40px;
+    font-weight: 700 ;
+}
+
+
+
+/* ==== Project List ===== */
+#section_3{
+    padding: 10px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    color: #fff;
+}
+.project > div{
+    background-color: #1E1E1E;
+    overflow: hidden;
+    padding: 65px 35px;
+    margin-bottom: 20px;
+}
+.project > div >  img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.5s;
+}
+.project > div >  img:hover{
+    box-shadow: 0 0 10px 2px rgb(179, 178, 178);
+    transform: scale(1.05);
+}
+.project > h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.project > a{
+    font-size: 15px;
+}
+/* -----------Project list ends here--------- */
+
+
+/* ======== Ending lines ========= */
+#section_4{
+    margin: 50px 200px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+#section_4 button{
+    font-size: 15px;
+    padding: 15px 35px;
+}
+#section_4 h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+#section_4 p{
+    margin-top: 15px; 
+    padding-right: 130px;
+    color: #8E8E8E;
+    line-height: 20px;
+    word-spacing: 1.5px;
+}
+
+
+/* <!-- ======= Bottom List ======= --> */
+#section_5{
+    margin: 100px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+}
+#section_5 > ul{
+    list-style-type: none;
+    display: flex;
+}
+#section_5 > ul > li{
+    margin-right: 50px;
+}
+
+
+/* <!-- =========== FOOTER Section =========== --> */
+footer{
+    color: #fff;
+    background-color: #1E1E1E;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer  img{
+    width: 125px;
+}
+footer i{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
