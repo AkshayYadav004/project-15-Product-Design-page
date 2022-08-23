@@ -8,3 +8,13 @@ Languages used :
  By working on this project I applied theroritical knowledge of grid and flex box.  
 
 ### Link to web page : [Deploy link](https://product-design-landing-webpage-15.netlify.app/)
+
+> ## Below are the screen-shots of how the web page look like
+
+![Image - 1](./readme%20images/image-1.png)
+
+![Image - 2](./readme%20images/image-2.png)
+>## As shown in the image the when hover over the section the effect is visible.
+
+![](./readme%20images/image-3.png)
+> ## When hover over the porject a box shadow appears and the image of project also zooms a little bit.
